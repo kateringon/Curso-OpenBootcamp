@@ -1,0 +1,13 @@
+.flex {
+    display: flex;
+    /*flex-direction: column; /*Cambia la direccion de los ejes*/
+    background-color: rgb(223, 33, 33);
+    justify-content: space-around;
+    align-items: center; /*(stretch)Dimenciona dentro del todo el contenedor*/
+    flex-wrap: wrap;
+}
+
+.img {
+    margin: 10px;
+    width: 300px;
+}
