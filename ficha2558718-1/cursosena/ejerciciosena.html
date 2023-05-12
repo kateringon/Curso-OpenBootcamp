@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matricula Curso</title>
+</head>
+<body>
+    <h2>Diligencie el formulario</h2>
+    <form action="ejerciciosena.php" method="post">
+
+        <label for="">Nombre del estudiante: </label>
+        <input type="text" name="estudiante" id="" required>
+        
+        <br>
+
+        <label for="">Curso: </label>
+        <select name="curso" id="">
+            <option value="python">Python</option>
+            <option value="php">PHP</option>
+            <option value="csharp">C#</option>
+            <option value="java">Java</option>
+        </select>
+        
+        <br>
+        
+        <label for="">¿Estudiante SENA?</label>
+        <label for="">Si</label>
+        <input type="radio" value="si" name="sena" required>
+        <label for="">No</label>
+        <input type="radio" value="no" name="sena" required>
+        
+        <br>
+        
+        <label for="">¿Estudiante ADSO?</label>
+        <label for="">Si</label>
+        <input type="radio" value="si" name="adso" required>
+        <label for="">No</label>
+        <input type="radio" value="no" name="adso" required>
+        
+        <br>
+
+        <label for="">Edad:</label>
+        <input type="number" name="edad" min="0" required>
+
+        <br>
+
+        <input type="submit" value="Consultar">
+    </form>
+</body>
+</html>
